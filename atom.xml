@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://laodudym.github.io/"/>
+  <updated>2020-06-18T02:27:45.034Z</updated>
+  <id>https://laodudym.github.io/</id>
+  
+  <author>
+    <name>laoduDYM</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Elasticsearch安装（新）</title>
+    <link href="https://laodudym.github.io/2018/12/24/Elasticsearch%E5%AE%89%E8%A3%85/"/>
+    <id>https://laodudym.github.io/2018/12/24/Elasticsearch%E5%AE%89%E8%A3%85/</id>
+    <published>2018-12-24T08:33:42.000Z</published>
+    <updated>2020-06-18T02:27:45.034Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Elasticsearch安装"><a href="#Elasticsearch安装" class="headerlink" title="Elasticsearch安装"></a>Elasticsearch安装</h2><h3 id="windows-下安装"><a href="#windows-下安装" class="headerlink" title="windows  下安装"></a>windows  下安装</h3><h4 id="1-在官网下载的压缩包"><a href="#1-在官网下载的压缩包" class="headerlink" title="1.在官网下载的压缩包"></a>1.在官网下载的压缩包</h4><h4 id="2-解压运行bin目录下的-elasticsearch-bat-文件即可以运行"><a href="#2-解压运行bin目录下的-elasticsearch-bat-文件即可以运行" class="headerlink" title="2.解压运行bin目录下的 elasticsearch.bat 文件即可以运行"></a>2.解压运行bin目录下的 elasticsearch.bat 文件即可以运行</h4><h2 id="kibana安装"><a href="#kibana安装" class="headerlink" title="kibana安装"></a>kibana安装</h2><h3 id="windows-下安装-1"><a href="#windows-下安装-1" class="headerlink" title="windows  下安装"></a>windows  下安装</h3><h4 id="1-在官网下载的压缩包-1"><a href="#1-在官网下载的压缩包-1" class="headerlink" title="1.在官网下载的压缩包"></a>1.在官网下载的压缩包</h4><h4 id="2-解压运行命令-bin-kibana-bat-on-Windows-linux-Run-bin-kibana"><a href="#2-解压运行命令-bin-kibana-bat-on-Windows-linux-Run-bin-kibana" class="headerlink" title="2.解压运行命令 bin\kibana.bat on Windows   (linux Run bin/kibana )"></a>2.解压运行命令 bin\kibana.bat on Windows   (linux Run bin/kibana )</h4><h2 id="logstash安装"><a href="#logstash安装" class="headerlink" title="logstash安装"></a>logstash安装</h2><h3 id="windows-下安装-2"><a href="#windows-下安装-2" class="headerlink" title="windows  下安装"></a>windows  下安装</h3><h4 id="1-在官网下载的压缩包-2"><a href="#1-在官网下载的压缩包-2" class="headerlink" title="1.在官网下载的压缩包"></a>1.在官网下载的压缩包</h4><h4 id="2-解压运行命令-bin-logstash-f-logstash-conf"><a href="#2-解压运行命令-bin-logstash-f-logstash-conf" class="headerlink" title="2.解压运行命令 bin/logstash -f logstash.conf"></a>2.解压运行命令 bin/logstash -f logstash.conf</h4><p>注意事项：三个软件版本号要对应上</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Elasticsearch安装&quot;&gt;&lt;a href=&quot;#Elasticsearch安装&quot; class=&quot;headerlink&quot; title=&quot;Elasticsearch安装&quot;&gt;&lt;/a&gt;Elasticsearch安装&lt;/h2&gt;&lt;h3 id=&quot;windows-下安装&quot;&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="ES" scheme="https://laodudym.github.io/tags/ES/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>idea 聚合项目创建两种方式</title>
+    <link href="https://laodudym.github.io/2018/09/13/idea-%E8%81%9A%E5%90%88%E9%A1%B9%E7%9B%AE%E5%88%9B%E5%BB%BA%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
+    <id>https://laodudym.github.io/2018/09/13/idea-%E8%81%9A%E5%90%88%E9%A1%B9%E7%9B%AE%E5%88%9B%E5%BB%BA%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/</id>
+    <published>2018-09-13T12:22:30.000Z</published>
+    <updated>2018-09-13T12:23:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="idea-聚合项目创建两种方式"><a href="#idea-聚合项目创建两种方式" class="headerlink" title="idea 聚合项目创建两种方式"></a>idea 聚合项目创建两种方式</h1><h2 id="一、通过空项目创建（推荐）"><a href="#一、通过空项目创建（推荐）" class="headerlink" title="一、通过空项目创建（推荐）"></a>一、通过空项目创建（推荐）</h2><blockquote><p> 这种方式与eclipse创建出来的聚合项目相似，结构清晰；</p></blockquote><h3 id="1-创建一个空项目："><a href="#1-创建一个空项目：" class="headerlink" title="1.创建一个空项目："></a>1.创建一个空项目：</h3><p>Create New project -&gt; Empty Project</p><h3 id="2-创建Module-主模块-："><a href="#2-创建Module-主模块-：" class="headerlink" title="2.创建Module(主模块)："></a>2.创建Module(主模块)：</h3><p>File -&gt; New -&gt; Module -&gt; Maven<br>填写好GroupId 与 ArtifacitId 下一步 填写好项目名字</p><h3 id="3-创建Module（子模块）"><a href="#3-创建Module（子模块）" class="headerlink" title="3.创建Module（子模块）"></a>3.创建Module（子模块）</h3><p>File -&gt; New -&gt; Module -&gt; Maven<br>Add as module to 选择主模块，填写好GroupId（与主模块的GroupId的相同） 与 ArtifacitId 下一步 填写好项目名字</p><h3 id="4-在子模块的pom文件里写好节点"><a href="#4-在子模块的pom文件里写好节点" class="headerlink" title="4.在子模块的pom文件里写好节点"></a>4.在子模块的pom文件里写好<parent>节点</h3><hr><h2 id="二、通过主项目创建"><a href="#二、通过主项目创建" class="headerlink" title="二、通过主项目创建"></a>二、通过主项目创建</h2><blockquote><p> 这种方式创建出的结构为子模块在父模块里面；</p></blockquote><h3 id="1-创建一个Maven项目："><a href="#1-创建一个Maven项目：" class="headerlink" title="1.创建一个Maven项目："></a>1.创建一个Maven项目：</h3><p>Create New project -&gt; Maven</p><h3 id="2-创建Module（子模块）"><a href="#2-创建Module（子模块）" class="headerlink" title="2.创建Module（子模块）"></a>2.创建Module（子模块）</h3><p>File -&gt; New -&gt; Module -&gt; Maven<br>Add as module to 选择主模块，去掉Parent的选项 选择none；填写好GroupId（与主模块的GroupId的相同） 与 ArtifacitId 下一步 填写好项目名字</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;idea-聚合项目创建两种方式&quot;&gt;&lt;a href=&quot;#idea-聚合项目创建两种方式&quot; class=&quot;headerlink&quot; title=&quot;idea 聚合项目创建两种方式&quot;&gt;&lt;/a&gt;idea 聚合项目创建两种方式&lt;/h1&gt;&lt;h2 id=&quot;一、通过空项目创建（推荐）
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="https://laodudym.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="IDEA" scheme="https://laodudym.github.io/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World!</title>
+    <link href="https://laodudym.github.io/2018/09/13/hello/"/>
+    <id>https://laodudym.github.io/2018/09/13/hello/</id>
+    <published>2018-09-13T10:44:06.000Z</published>
+    <updated>2018-09-13T12:10:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="开始用博客记录工作学习中的经验与心得！"><a href="#开始用博客记录工作学习中的经验与心得！" class="headerlink" title="开始用博客记录工作学习中的经验与心得！"></a>开始用博客记录工作学习中的经验与心得！</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;开始用博客记录工作学习中的经验与心得！&quot;&gt;&lt;a href=&quot;#开始用博客记录工作学习中的经验与心得！&quot; class=&quot;headerlink&quot; title=&quot;开始用博客记录工作学习中的经验与心得！&quot;&gt;&lt;/a&gt;开始用博客记录工作学习中的经验与心得！&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
